@@ -235,3 +235,6 @@ git pull
 + `push`：将本地的分支上传至服务网站
 + `pull`：将网站上的项目更新至本地
 
+
+## [NOTE]
+1. clone是本地没有repository时，将远程repository整个下载过来。pull是本地有repository时，将远程repository里新的commit数据(如有的话)下载过来，并且与本地代码merge。
